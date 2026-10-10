@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denis O. Onduso | Networking, Cloud &amp; Security</title>
+<meta name="description" content="Portfolio of Denis O. Onduso, IT student focused on networking, cloud infrastructure and security operations.">
+<script>
+(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+if(!t){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home">Denis O. Onduso <span>| IT Portfolio</span></a>
+    <div class="nav-right">
+      <ul class="nav-links"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#resume">Resume</a></li><li><a href="#contact">Contact</a></li></ul>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle light / dark theme"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Denis O. Onduso</h1>
+      <p class="role">Aspiring Network, Cloud &amp; Security Engineer</p>
+      <p class="lead">I am a second-year Bachelor of Science in Information Technology student building practical skills in network engineering, security operations and cloud infrastructure. My work is hands-on: I design and configure networks, analyse traffic and logs, and monitor systems with a SIEM. I am open to learning and collaboration.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-outline" href="#contact">Contact Me</a>
+        <a class="btn btn-outline" href="#resume">View Resume</a>
+      </div>
+      <div class="hero-meta">
+        <span class="pill">CCNA in progress</span>
+        <span class="pill">AWS Solutions Architect Associate in progress</span>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="block" aria-label="Focus areas">
+  <div class="container">
+    <div class="section-head"><h2>What I work on</h2><p>Three connected areas that together cover how networks are built, secured and observed.</p></div>
+    <div class="grid g3">
+      <div class="card accent-top"><h3>Networking</h3><p>Switching, routing, OSPF, ACLs, DHCP and DNS, practised through structured labs in Cisco Packet Tracer.</p></div>
+      <div class="card accent-top"><h3>Security Operations</h3><p>Packet analysis with Wireshark, log parsing, Sysinternals investigation and SIEM monitoring with Splunk.</p></div>
+      <div class="card accent-top"><h3>Cloud Infrastructure</h3><p>AWS networking and security fundamentals: VPCs, IAM, load balancing and infrastructure as code.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="block alt">
+  <div class="container">
+    <div class="section-head"><h2>About me</h2><p>Student, lab builder and future network, cloud and security professional.</p></div>
+    <div class="about-grid">
+      <div class="photo-wrap">
+        <div class="photo-frame">
+          <span class="initials" aria-hidden="true">DO</span>
+          <img id="profile-photo" src="assets/profile.jpg" alt="Portrait of Denis O. Onduso">
+        </div>
+        <p class="photo-caption">Denis O. Onduso</p>
+      </div>
+      <div>
+        <div class="prose">
+          <p>I am a second-year student pursuing a Bachelor of Science in Information Technology. My interest is in how networks are designed, how they are defended, and how they run in the cloud.</p>
+          <p>I learn by building. Each of my projects is a hands-on lab: configuring networks in Cisco Packet Tracer, investigating packet captures and logs, and monitoring infrastructure with Splunk. I am now extending that foundation into AWS cloud networking and security.</p>
+          <p>I am open to learning and collaboration, and I welcome conversations about internships, attachments, projects and mentorship.</p>
+        </div>
+        <ul class="facts">
+          <li><strong>Education</strong><span>Bachelor of Science in Information Technology (Year 2)</span></li>
+          <li><strong>Focus areas</strong><span>Networking, security operations, cloud infrastructure</span></li>
+          <li><strong>Tools</strong><span>Cisco Packet Tracer, Wireshark, Sysinternals, Splunk, AWS</span></li>
+          <li><strong>Availability</strong><span>Open to learning and collaboration</span></li>
+        </ul>
+      </div>
+    </div>
+    <h3 style="color:var(--heading);margin:44px 0 18px;font-size:1.25rem">Certification path</h3>
+    <div class="grid g2">
+      <div class="card cert"><span class="badge progress">In progress</span><h3>Cisco Certified Network Associate (CCNA)</h3><p>Networking fundamentals, IP connectivity, network services, security fundamentals and automation.</p><span class="when">Target: December 2026</span></div>
+      <div class="card cert"><span class="badge progress">In progress</span><h3>AWS Certified Solutions Architect – Associate</h3><p>Designing secure, resilient and cost-aware architectures on AWS.</p><span class="when">Target: June 2027</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="block">
+  <div class="container">
+    <div class="section-head"><h2>Projects</h2><p>Hands-on work across networking, security operations, monitoring and cloud. Source material is on GitHub.</p></div>
+    <div class="grid g2"><article class="card project accent-top">
+  <span class="badge done">Completed</span>
+  <h3>Network Infrastructure Engineering</h3>
+  <p>Hands-on lab series built in Cisco Packet Tracer, covering the design, configuration and verification of enterprise-style networks.</p>
+  <ul class="points"><li>Switching, VLANs and inter-VLAN routing</li><li>Static and dynamic routing with OSPF</li><li>Access Control Lists (ACLs) for traffic filtering</li><li>Additional topics: DHCP, DNS and more</li></ul>
+  <ul class="tags"><li>Cisco Packet Tracer</li><li>Switching</li><li>Routing</li><li>OSPF</li><li>ACLs</li></ul>
+  <div class="actions"><a class="btn btn-primary btn-sm" href="https://github.com/denis541/Network-Infrastructure-Engineering" target="_blank" rel="noopener">View on GitHub</a></div>
+</article><article class="card project accent-top">
+  <span class="badge done">Completed</span>
+  <h3>SOC Analysis and Incident Response</h3>
+  <p>Security operations practice focused on investigating network traffic and system activity to detect and analyse suspicious behaviour.</p>
+  <ul class="points"><li>Packet capture (PCAP) analysis with Wireshark</li><li>Log parsing and event investigation</li><li>Windows system analysis using Sysinternals tools</li></ul>
+  <ul class="tags"><li>Wireshark</li><li>PCAP Analysis</li><li>Log Analysis</li><li>Sysinternals</li></ul>
+  <div class="actions"><a class="btn btn-primary btn-sm" href="https://github.com/denis541/SOC-Analysis-and-Incident-Response" target="_blank" rel="noopener">View on GitHub</a></div>
+</article><article class="card project accent-top">
+  <span class="badge done">Completed</span>
+  <h3>ICT Infrastructure Monitoring with Splunk</h3>
+  <p>Network and infrastructure monitoring using the Splunk SIEM platform to centralise logs and surface activity worth investigating.</p>
+  <ul class="points"><li>Log ingestion and centralised collection</li><li>Searching and analysing events in Splunk</li><li>Monitoring network activity for anomalies</li></ul>
+  <ul class="tags"><li>Splunk</li><li>SIEM</li><li>Monitoring</li><li>Log Management</li></ul>
+  <div class="actions"><a class="btn btn-primary btn-sm" href="https://github.com/denis541/ICT-Infrastructure-Monitoring-Splunk" target="_blank" rel="noopener">View on GitHub</a></div>
+</article><article class="card project accent-top">
+  <span class="badge progress">In progress</span>
+  <h3>Cloud Projects on AWS</h3>
+  <p>Hands-on cloud work on Amazon Web Services, developed alongside my AWS Solutions Architect Associate preparation. Details and repository will be added as the work is completed.</p>
+  <ul class="points"><li>Designing VPCs, subnets and route tables</li><li>Security groups and IAM fundamentals</li></ul>
+  <ul class="tags"><li>AWS</li><li>VPC</li><li>IAM</li><li>Cloud Networking</li></ul>
+  <div class="actions"><span class="btn btn-disabled btn-sm" aria-disabled="true">Repository coming soon</span></div>
+</article></div>
+    <div class="btn-row"><a class="btn btn-dark" data-link="github" href="#" target="_blank" rel="noopener">Browse all repositories on GitHub</a></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="block alt">
+  <div class="container">
+    <div class="section-head"><h2>Skills</h2><p>Technical skills grouped by area.</p></div>
+    <div class="skill-group"><h2>Networking<small>Core infrastructure knowledge built through lab work.</small></h2><div class="grid g3"><div class="card accent-top"><h3>Network Fundamentals</h3><p>OSI and TCP/IP models, IP addressing, subnetting, switching, routing protocols such as OSPF, DNS and DHCP.</p></div><div class="card accent-top"><h3>Network Security &amp; Firewalls</h3><p>ACLs and firewalls, VPNs (theoretical) and zero-trust principles for protecting data.</p></div><div class="card accent-top"><h3>Troubleshooting &amp; Observability</h3><p>Isolating network faults layer by layer, analysing traffic captures with tools like Wireshark, and minimising downtime.</p></div><div class="card accent-top"><h3>Cloud &amp; Virtualization</h3><p>Working with hybrid and public cloud environments such as AWS, Azure or Google Cloud, and virtual networks.</p></div><div class="card accent-top"><h3>Network Automation &amp; Scripting</h3><p>Using Python, APIs and Terraform to replace manual CLI work with automated, repeatable tasks.</p></div></div></div>
+    <div class="skill-group"><h2>Cloud<small>Focused on AWS, aligned with my Solutions Architect Associate preparation.</small></h2><div class="grid g3"><div class="card accent-top"><h3>Virtual Private Clouds (VPC)</h3><p>Designing and isolating virtual networks: subnets, route tables, internet gateways and security groups on AWS.</p></div><div class="card accent-top"><h3>Hybrid Connectivity</h3><p>Bridging on-premises data centres with the cloud, including high-speed links such as AWS Direct Connect.</p></div><div class="card accent-top"><h3>Infrastructure as Code (IaC)</h3><p>Deploying networks with code using Terraform or cloud-native options such as AWS CloudFormation for repeatable deployments.</p></div><div class="card accent-top"><h3>Cloud Load Balancing &amp; DNS</h3><p>High availability and traffic distribution with global and regional load balancers, and DNS services such as AWS Route 53 for routing and failover.</p></div><div class="card accent-top"><h3>Cloud Security &amp; Zero Trust</h3><p>IAM policies, cloud firewalls, and encryption in transit and at rest to protect distributed assets.</p></div></div></div>
+    <div class="skill-group"><h2>Security<small>Detection, monitoring and governance.</small></h2><div class="grid g2"><div class="card accent-top"><h3>SIEM &amp; Observability</h3><p>Centralising logs from clouds, networks and applications using platforms like Splunk or Datadog to spot anomalous activity.</p></div><div class="card accent-top"><h3>Governance, Risk &amp; Compliance (GRC)</h3><p>Ensuring the organisation meets legal frameworks and evaluates business risk. Compliance frameworks include ISO 27001, SOC 2, NIST and GDPR.</p></div></div></div>
+    <div class="skill-group" style="margin-bottom:0"><h2>Tools &amp; platforms</h2><ul class="tools"><li>Cisco Packet Tracer</li><li>Wireshark</li><li>Sysinternals</li><li>Splunk</li><li>AWS</li><li>Python</li><li>Terraform</li><li>Git &amp; GitHub</li></ul></div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="block">
+  <div class="container">
+    <div class="section-head"><h2>Resume</h2><p>View online or download a copy.</p></div>
+    <div class="btn-row" style="margin:0 0 20px"><a id="resume-download" class="btn btn-primary" href="assets/resume.pdf" download>Download resume (PDF)</a></div>
+    <iframe id="resume-frame" class="resume-frame" title="Resume of Denis O. Onduso"></iframe>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="block alt">
+  <div class="container">
+    <div class="section-head"><h2>Contact</h2><p>Send a message about opportunities, collaboration or questions. It is delivered straight to my email.</p></div>
+    <div class="contact-grid">
+      <div>
+        <h3 style="color:var(--heading);margin-bottom:14px;font-size:1.25rem">Get in touch</h3>
+        <p style="color:var(--muted);margin-bottom:18px">I read every message and reply by email.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a data-link="email" data-text="email" href="#"></a></li>
+          <li><span>GitHub</span><a data-link="github" href="#" target="_blank" rel="noopener">github.com/denis541</a></li>
+          <li><span>LinkedIn</span><a data-link="linkedin" href="#" target="_blank" rel="noopener">Profile link coming soon</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <form id="contact-form">
+          <div class="form-row"><label for="name">Your name</label><input type="text" id="name" name="name" required autocomplete="name"></div>
+          <div class="form-row"><label for="email">Your email</label><input type="email" id="email" name="email" required autocomplete="email"></div>
+          <div class="form-row"><label for="subject">Subject</label><input type="text" id="subject" name="subject" required></div>
+          <div class="form-row"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+          <div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div><strong>Denis O. Onduso</strong><br>BSc Information Technology Student</div>
+      <ul class="social">
+        <li><a data-link="github" href="#" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.600-5.500 5.900.4.4.8 1.100.8 2.200v3.300c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg></a></li>
+        <li><a data-link="linkedin" href="#" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.600c0-1.300 0-3-1.800-3s-2.100 1.400-2.100 2.900v5.700H9.400V9h3.400v1.600c.5-.9 1.600-1.900 3.400-1.900 3.600 0 4.300 2.400 4.300 5.500v6.300zM5.300 7.400a2.100 2.100 0 1 1 0-4.100 2.100 2.100 0 0 1 0 4.100zm1.800 13.100H3.500V9h3.600v11.500zM22.200 0H1.800C.8 0 0 .8 0 1.700v20.600c0 .9.8 1.700 1.800 1.700h20.400c1 0 1.800-.8 1.800-1.700V1.700C24 .8 23.200 0 22.200 0z"/></svg></a></li>
+        <li><a data-link="email" href="#" aria-label="Email"><svg class="stroke" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.500" y="4.500" width="19" height="15" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom"><span>&copy; <span id="year">2026</span> Denis O. Onduso. All rights reserved.</span><span>Open to learning and collaboration</span></div>
+  </div>
+</footer>
+</body>
+</html>
